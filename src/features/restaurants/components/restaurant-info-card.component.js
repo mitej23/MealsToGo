@@ -56,7 +56,7 @@ export const RestaurantInfoCard = ({ restaurant = {} }) => {
     name = "Some Restaurant",
     icon = "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/lodging-71.png",
     photos = [
-      "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.onholdinc.com%2Fmohblog%2Fwp-content%2Fuploads%2F2018%2F03%2Frestaurant.jpg&imgrefurl=https%3A%2F%2Fwww.onholdinc.com%2Fmohblog%2Fhow-background-music-can-impact-your-restaurant-sales%2F&tbnid=y0sI80mtSV7CSM&vet=12ahUKEwjQuKG16ZHwAhXyC7cAHZFYDuoQMygFegUIARDdAQ..i&docid=m-nBwYSy4EM_2M&w=1377&h=607&q=restaurant%20image&safe=active&ved=2ahUKEwjQuKG16ZHwAhXyC7cAHZFYDuoQMygFegUIARDdAQ",
+      "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
     ],
     address = "100 some random street",
     isOpenNow = true,
