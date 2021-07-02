@@ -7,10 +7,8 @@ import { RestaurantInfoCard } from "../components/restaurant-info-card.component
 import { SafeArea } from "../../../components/utility/safe-area.component";
 
 import { RestaurantsContext } from "../../../services/restaurants/restaurants.context";
+import { Search } from "../components/search.component";
 
-const SearchContainer = styled.View`
-  padding: ${(props) => props.theme.space[3]};
-`;
 
 const RestaurantList = styled(FlatList).attrs({
   contentContainerStyle: {
@@ -33,13 +31,10 @@ export const RestaurantsScreen = () => {
           />
         </View>
       )}
-      <SearchContainer>
-        <Searchbar />
-      </SearchContainer>
+      <Search />
       <RestaurantList
         data={restaurants}
         renderItem={({ item }) => {
-          console.log(item);
           return <RestaurantInfoCard restaurant={item} />;
         }}
         keyExtractor={(item) => item.name}
